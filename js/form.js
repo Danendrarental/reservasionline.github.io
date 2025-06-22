@@ -6,9 +6,9 @@ document.querySelector("#submit").addEventListener("click", (e) => {
   let tel = "";
   let url = "";
   //if(randValue % 2 == 0) {
-  tel = "6282116091165";
+  tel = "6281214796449";
   //}else{
-  //tel = "6285864040204";
+  //tel = "6281214796449";
   //}
 
   let location = document.querySelector("#locationselectio").value;
@@ -24,8 +24,8 @@ document.querySelector("#submit").addEventListener("click", (e) => {
   tanggapan.classList.remove("send");
 
   url = `https://api.whatsapp.com/send?phone=${tel}&text=
-      *_BSC RENTAL MOBIL_*%0A
-      *Rental Murah Se-bandung Raya*%0A
+      *_DANENDRA RENTAL MOBIL_*%0A
+      *Rental Mobil bandung*%0A
       Kami hadir di kota - kota di Indonesia%0A
       *R E S E R V A S I*%0A
       ------------------------------------------------------%0A%0A
@@ -44,11 +44,11 @@ document.querySelector("#submit").addEventListener("click", (e) => {
       *Tujuan Destinasi:*%0A
       ${droplocation}%0A%0A
       Follow us :%0A
-      Website : www.bscrental.com%0A
-      https://instagram.com/bsc_rental%0A
-      https://web.facebook.com/BastianServiceCentre%0A%0A
-      Reservation WA (62821-1609-1165)%0A
-      Reservation WA (62858-6404-0204)%0A`;
+      Website : www.danendrarental.com%0A
+      https://www.instagram.com/danendrarentalmobil/%0A
+      https://www.facebook.com/danendra.rental%0A%0A
+      Reservation WA (62812-1479-6449)%0A
+      Reservation WA (62856-5588-0430)%0A`;
 
   //if (klien === "" || tanggal === "" || jam === "") {
   if (location === "" || tanggal === "" || jam === "" || numdays === "") {
@@ -59,7 +59,7 @@ document.querySelector("#submit").addEventListener("click", (e) => {
   }
   tanggapan.classList.remove("fail");
   tanggapan.classList.add("send");
-  tanggapan.innerHTML = `Reservasi anda telah dikirimkan`;
+  tanggapan.innerHTML = `Reservasi anda telah dikirimkan,Admin Akan Segera Menghubungi Anda`;
 
   window.open(url);
 });
