@@ -9,7 +9,7 @@ body {
   margin-right: 30px;
   font-family: sans-serif;
   background: #94c60b;
-  background: -webkit-linear-gradient(to right, #94bef5, #3b8df7);
+  background: -webkit-linear-gradient(to right, #94c60b, #94c60b);
   background: linear-gradient(to right, #94c60b, #94c60b);
 }
 
