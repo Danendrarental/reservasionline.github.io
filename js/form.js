@@ -11,8 +11,8 @@ document.querySelector("#submit").addEventListener("click", (e) => {
   //tel = "6281214796449";
   //}
 
-  let location = document.querySelector("#locationselectio").value;
-  let domisili = document.querySelector("#locationselectio").value;
+  let location = document.querySelector("#namalengkapselectio").value;
+  let domisili = document.querySelector("#domisiliselectio").value;
   let droplocation = document.querySelector("#droplocationselectio").value;
   let tanggal = document.querySelector("#tanggal").value;
   let jam = document.querySelector("#jam").value;
