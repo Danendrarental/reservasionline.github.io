@@ -12,6 +12,7 @@ document.querySelector("#submit").addEventListener("click", (e) => {
   //}
 
   let location = document.querySelector("#locationselectio").value;
+  let domisili = document.querySelector("#locationselectio").value;
   let droplocation = document.querySelector("#droplocationselectio").value;
   let tanggal = document.querySelector("#tanggal").value;
   let jam = document.querySelector("#jam").value;
@@ -29,8 +30,10 @@ document.querySelector("#submit").addEventListener("click", (e) => {
       Kami hadir di kota - kota di Indonesia%0A
       *R E S E R V A S I*%0A
       ------------------------------------------------------%0A%0A
-      *Lokasi Penjemputan:*%0A
+      *Nama Lengkap:*%0A
       ${location}%0A
+      *Domisili:*%0A
+      ${domisili}%0A
       *Tanggal Sewa:*%0A
       ${tanggal}%0A
       *Jam:*%0A
