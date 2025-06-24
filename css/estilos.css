@@ -8,9 +8,9 @@ body {
   margin-left: 30px;
   margin-right: 30px;
   font-family: sans-serif;
-  background: #94c60b;
-  background: -webkit-linear-gradient(to right, #94c60b, #94c60b);
-  background: linear-gradient(to right, #94c60b, #94c60b);
+  background: #aaeb12;
+  background: -webkit-linear-gradient(to right, #f9faf8, #bae205);
+  background: linear-gradient(to right, #bae205, #f8f8f6);
 }
 
 .web2wa {
